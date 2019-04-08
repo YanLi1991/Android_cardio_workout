@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashFrag1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="3.0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+
+
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:editable="false"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="@string/splash2_welcome"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="242dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1.0"
+            android:id="@+id/splash1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:lineSpacingMultiplier="2"
+                android:textColor="@color/white"
+                android:editable="false"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="@string/splash2_description"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="242dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

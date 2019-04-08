@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Cardio Workout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="splash_cardio_workout">Cardio Workout</string>
+    <string name="splash2_description">\nThe cardio workout is a home exercise routine\n
+        NO equipment is needed\n</string>
+    <string name="splash2_welcome">Welcome</string>
+    <string name="splash2_btn_start">Get started</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="workout_routine_header">For each round,\n there are 4 exercises:</string>
+    <string name="workout_routine_content">5 x Burpees\n5 x Split Jump\n5 x Burpees\n5 x Squat Jump</string>
+    <string name="workout_routine_bottom">1 min for each set, do as many rounds as you can in each set</string>
+
+    <string name="resttime">Rest time</string>
+    <string name="rounds">Number of rounds</string>
+
+    <string name="burpee">Burpee</string>
+    <string name="splitjump">Split jump</string>
+    <string name="squatjump">Squat jump</string>
+    <string name="startworkout">START WORKOUT</string>
+
+    <string-array name="rest_array">
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>15 sec</item>
+    </string-array>
+
+    <string-array name="rounds_array">
+        <item>10</item>
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+    <string name="burpees">5 x Burpees</string>
+    <string name="split_jump">5 x Split jump</string>
+    <string name="squat_jump">5 x Squat jump</string>
+
+    <string name="rounds_workout">Rounds</string>
+    <string name="timeleft_workout">Time left</string>
+
+    <string name="rest">Rest</string>
+
+    <string name="congra">Congratulations!</string>
+    <string name="congraContent">You have already completed the whole workout!
+    Why not try something harder next time!\n
+    :D</string>
+
+    <string name="goBack">Go Back</string>
+    <string name="aboutApp">About</string>
+    <string name="aboutContent">This app is just a demo app\nPlease let me know if you like it :)</string>
+</resources>
